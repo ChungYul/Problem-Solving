@@ -10,8 +10,8 @@
 	<description>solve problem on algorithmic site such as BAK, Programmers and etc.</description>
 
 	<properties>
-		<maven.compile.source>1.8</maven.compile.source>
-		<maven.compile.target>1.8</maven.compile.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEndcoding>UTF-8</project.reporting.outputEndcoding>
 	</properties>
