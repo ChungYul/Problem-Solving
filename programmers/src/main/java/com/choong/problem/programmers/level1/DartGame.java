@@ -3,7 +3,13 @@ package com.choong.problem.programmers.level1;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.IntStream;
-
+/**
+ * 
+ * @title	: 다트게임
+ * @author	: CHOONG
+ * @Desc	: 2018년 KAKAO BLIND RECRUITMENT, 프로그래머스 [1차] 다트게임 문제
+ *
+ */
 public class DartGame {
   // https://unlimitedpower.tistory.com/entry/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D-%EC%9D%B4%EA%B2%83%EC%9D%B4-%EA%B3%A0%EA%B8%89%EC%9D%B4%EB%8B%A4-Positive-Negative-Lookahead-Lookbehind
   // https://stackoverflow.com/questions/16787099/how-to-split-the-string-into-string-and-integer-in-java
@@ -30,7 +36,6 @@ public class DartGame {
     }
 
     for (idx = 0; idx < 3; idx++) {
-      // eachBonus[idx].chars().mapToObj(item -> (char) item).forEach(calculateBonus);
       char[] c = eachBonus[idx].toCharArray();
       for (int i = 0; i < c.length; i++) {
         if (c[i] == 'S') {
