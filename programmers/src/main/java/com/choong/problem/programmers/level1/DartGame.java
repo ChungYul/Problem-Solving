@@ -3,11 +3,12 @@ package com.choong.problem.programmers.level1;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.IntStream;
+
 /**
  * 
- * @title	: 다트게임
- * @author	: CHOONG
- * @Desc	: 2018년 KAKAO BLIND RECRUITMENT, 프로그래머스 [1차] 다트게임 문제
+ * @title  : 다트게임
+ * @author : CHOONG
+ * @Desc   : 2018년 KAKAO BLIND RECRUITMENT, 프로그래머스 [1차] 다트게임 문제
  *
  */
 public class DartGame {
@@ -41,9 +42,9 @@ public class DartGame {
         if (c[i] == 'S') {
 
         } else if (c[i] == 'D') {
-          eachScore[idx] = eachScore[idx]*eachScore[idx];
+          eachScore[idx] = eachScore[idx] * eachScore[idx];
         } else if (c[i] == 'T') {
-          eachScore[idx] = eachScore[idx]*eachScore[idx]*eachScore[idx];
+          eachScore[idx] = eachScore[idx] * eachScore[idx] * eachScore[idx];
         } else if (c[i] == '*') {
           eachScore[idx] = eachScore[idx] * 2;
           if (idx != 0) {
@@ -59,5 +60,5 @@ public class DartGame {
 
     return answer;
   }
- 
+
 }
