@@ -6,7 +6,7 @@ import java.util.stream.LongStream;
  * 
  * @title   : x만큼 간격이 있는 n개의 숫자
  * @author  : CHOONG
- * @Desc    : 프로그래머스 x만큼 간격이 있는 n개의 숫자 문
+ * @Desc    : 프로그래머스 x만큼 간격이 있는 n개의 숫자 문제
  *
  */
 

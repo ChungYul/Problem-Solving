@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("x만큼 간격이 있는 n개의 숫자")
+@DisplayName("x만큼 간격이 있는 n개의 숫자 테스트")
 class IntervalByXTest {
 
   @DisplayName("기본 테스트 케이스")
