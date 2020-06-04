@@ -23,6 +23,8 @@ public class RectangularStars {
       }
       System.out.println();
     }
+    
+    sc.close();
 
   }
 
