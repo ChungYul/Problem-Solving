@@ -1,10 +1,13 @@
 package com.choong.problem.programmers.level2;
 
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+@DisplayName("n진수 게임")
 class Base_N_NumberGameTest {
 
+  @DisplayName("기본 테스트 케이스")
   @Test
   void testSolution() {
     Base_N_NumberGame base_N_NumberGame = new Base_N_NumberGame();
