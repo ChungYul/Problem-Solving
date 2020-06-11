@@ -1,5 +1,13 @@
 package com.choong.problem.knowledge.datastructure.trie;
 
+/**
+ * 
+ * @title	: Trie 자료구조
+ * @author	: CHOONG
+ * @Desc	: Trie  자료구조, String prefix 를 는데 사용된다.
+ * @Reference : https://www.baeldung.com/trie-java , https://doublesprogramming.tistory.com/253
+ *
+ */
 public class Trie {
 
   private TrieNode root;
