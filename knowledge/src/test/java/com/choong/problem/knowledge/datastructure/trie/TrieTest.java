@@ -20,7 +20,15 @@ class TrieTest {
     assertFalse(trie.containsNode("vida"));
     assertTrue(trie.containsNode("life"));
   }
-  
+  @Test
+  public void whenDeleteElement_ThenTreeDoesNotContainThoseElements() {
+    Trie trie = createExampleTrie();
+    
+    assertTrue(trie.containsNode("Programming"));
+    
+    trie.delete("Programming");
+    assertFalse(trie.containsNode("Programming"));
+  }
   private Trie createExampleTrie() {
     Trie trie = new Trie();
     
