@@ -22,6 +22,7 @@ public class SortFileNames {
       String m_fullName;
       String m_head;
       Integer m_number;
+      @SuppressWarnings("unused")
       String m_tail;
 
       FileName(String fullName, String head, Integer number, String tail) {
