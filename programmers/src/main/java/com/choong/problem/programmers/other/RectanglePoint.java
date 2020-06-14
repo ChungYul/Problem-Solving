@@ -44,16 +44,4 @@ public class RectanglePoint {
     return answer;
   }
 
-  public static void main(String[] args) {
-    // TODO Auto-generated method stub
-
-    RectanglePoint rectanglePoint = new RectanglePoint();
-    int[] point = rectanglePoint.solution(new int[][] {{1, 4}, {3, 4}, {3, 10}});
-    System.out.println("X : " + point[0] + " Y : " + point[1]);
-
-
-    point = rectanglePoint.solution(new int[][] {{1, 1}, {2, 2}, {1, 2}});
-    System.out.println("X : " + point[0] + " Y : " + point[1]);
-  }
-
 }
