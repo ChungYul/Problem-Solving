@@ -23,6 +23,7 @@ public class Fibonacci {
     IntStream.range(0, MAX).forEach(i -> lookup[i] = NIL);
   }
 
+//  Fibonacci for Memoized version
   public int fibonacciWithMemorization(int n) {
     if (n <= 1) {
       lookup[n] = n;
@@ -34,6 +35,7 @@ public class Fibonacci {
     return lookup[n];
   }
   
+//  Fibonacci for Tabulation version
   public int finbonacciWithBottomUp(int n) {
     int f[] = new int[n+1];
     
