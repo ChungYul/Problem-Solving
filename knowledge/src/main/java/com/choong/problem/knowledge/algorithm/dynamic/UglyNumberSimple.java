@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  */
 
-public class UglyNumber {
+public class UglyNumberSimple {
 
   public int getUglyNumber(int n) {
 
@@ -52,7 +52,7 @@ public class UglyNumber {
 
   public static void main(String[] args) {
     // TODO Auto-generated method stub
-    UglyNumber uglyNumber = new UglyNumber();
+    UglyNumberSimple uglyNumber = new UglyNumberSimple();
     Scanner scanner = new Scanner(System.in);
     List<Integer> nthList = new ArrayList<Integer>();
 
