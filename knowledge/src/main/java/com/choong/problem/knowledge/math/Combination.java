@@ -22,8 +22,8 @@ public class Combination {
     }
     
     sel[k] = arr[n];
-    comb(arr, sel, n+1, k+1);
-    comb(arr, sel, n+1, k);
+    comb(arr, sel, n+1, k+1); // n-1Ck-1 ( n-1개 중에 k-1개를 뽑는 경우 )
+    comb(arr, sel, n+1, k); // n-1Ck (n-1개 중에 k개를 뽑는 경우 )
   }
 
 }
