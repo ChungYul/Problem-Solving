@@ -21,7 +21,7 @@ class NumberOf124CountryTest {
     assertEquals("42", country.solution(11));
     assertEquals("111", country.solution(13));
   }
-  
+
   @Test
   @DisplayName("3으로 나누어 떨어지는 수 테스트")
   void testSolution_with_multiples_of_3() {
