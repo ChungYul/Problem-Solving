@@ -13,19 +13,19 @@ class MoreSpicyTest {
     MoreSpicy moreSpicy = new MoreSpicy();
     assertEquals(2, moreSpicy.solution(new int[] {1, 2, 3, 9, 10, 12}, 7));
   }
-  
+
   @Test
   @DisplayName("모든 데이터가 K보다 큰 데이터 테스트")
   void testSolution_with_all_element_greater_than_K() {
     MoreSpicy moreSpicy = new MoreSpicy();
     assertEquals(0, moreSpicy.solution(new int[] {8, 9, 10, 11}, 7));
   }
-  
+
   @Test
   @DisplayName("모든 데이터가 K보다 큰 데이터 테스트")
   void testSolution_with_can_not_make_K() {
     MoreSpicy moreSpicy = new MoreSpicy();
-    assertEquals(-1, moreSpicy.solution(new int[] {1,1,0}, 7));
+    assertEquals(-1, moreSpicy.solution(new int[] {1, 1, 0}, 7));
   }
 
 }

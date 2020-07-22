@@ -20,7 +20,6 @@ public class MoreSpicy {
       q.add(scoville[i]);
     }
 
-
     while (q.peek() < K) {
       if (q.size() >= 2) {
         Integer i1 = q.poll();
@@ -32,7 +31,6 @@ public class MoreSpicy {
         answer = -1;
         break;
       }
-
     }
 
     return answer;
